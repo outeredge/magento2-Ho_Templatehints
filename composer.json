@@ -1,28 +1,30 @@
 {
   "name": "outeredge/magento2-templatehints",
-   "description": "H&O Magento 2 Advanced Template Hints module",
-  "type": "magento2-module",
-  "version": "1.2.3",
+  "replace": {
+    "outeredge/magento2-templatehints": "self.version"
+  },
+  "description": "H&O Magento 2 Advanced Template Hints module",
+  "homepage": "https://github.com/ho-nl/magento2-Ho_Templatehints",
+
+    "type": "magento2-module",
+  "version": "1.2.4",
   "authors": [
-        {
-            "name": "outer/edge",
-            "email": "hello@outeredgeuk.com",
-            "homepage": "https://outeredgeuk.com/",
-            "role": "Developer"
-        }
-    ],
-  "license": [
-    "OSL-3.0"
+    {
+      "name": "Paul Hachmang - H&O",
+      "email": "paul@h-o.nl"
+    }
   ],
   "require": {
-    "php": "~7.0|~7.1|~7.2|~7.3"
+     "php": "~7.0|~7.1|~7.2|~7.3"
   },
+  "type": "magento2-module",
+  "license": "BSD-2-Clause",
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "OuterEdge\\Templatehints\\": ""
+      "Ho\\Templatehints\\": ""
     }
   }
 }
